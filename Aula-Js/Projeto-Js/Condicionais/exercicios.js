@@ -132,3 +132,36 @@ if (number.isnan(a) || number.isnan(b) || number.isnan(c)) {
     if (c > maior) maior = c;
     console.log("o maior numero e:" + maior);
 }
+
+const nun1 = number(prompt("digite o primeiro número:"));
+const nun2 = number(prompt("digite o segundo número:"));
+const op = prompt ("digite a operaçâo (+, -, *, /):");
+
+if (Number.isNaN(nun1) || Number.isNaN(nun2)) {
+    console.log("entrada invalida, digite apenas numeros.");
+    } else 
+        switch (op) {
+    case "+":
+        console.log ("Resultado: " + (nun1 + nun2));
+            break;
+    case "-":
+            console.log("Resultado: " + (nun1 - nun2));
+            break;
+    case "*":
+        resuldado = nun1 * nun2;
+            console.log ('resuldado: ${resuldado}');
+            break;
+    case "/":
+        if (nun2 === 0) {
+            console.log("divisão por zero não é permitida.");
+        } else {
+            resuldado = nun1 / nun2;
+            console.log ('resuldado: ${resuldado}');
+        }
+            break;
+
+    break;
+
+    default:
+        break;
+}
