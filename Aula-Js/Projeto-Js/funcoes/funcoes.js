@@ -103,7 +103,7 @@ console.log(descrever(4));
 console.log(descrever(7));
 */
 
-
+/*
 const dobro = function (n) {
     return n * 2;
 };
@@ -134,3 +134,4 @@ console.log(criarAluno("lucas"));
 
 const criarAlunoErrado = nome => ({nome: nome});
 console.log(criarAlunoErrado("lucas"));
+*/
